@@ -28,7 +28,7 @@ const VideoPlayer = ({ token }) => {
     const duration = videoRef.current.duration;
     const currentTime = videoRef.current.currentTime;
     const res = await axios.post(
-      'http://localhost:5000/api/video/progress',
+      'https://smart-video-tracker-backend.onrender.com/api/video/progress',
       {
         videoId,
         newInterval: interval,
@@ -46,7 +46,7 @@ const VideoPlayer = ({ token }) => {
     const fetchProgress = async () => {
       const duration = videoRef.current.duration;
       const res = await axios.get(
-        `http://localhost:5000/api/video/progress/${videoId}?duration=${duration}`,
+        `https://smart-video-tracker-backend.onrender.com/api/video/progress/${videoId}?duration=${duration}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
