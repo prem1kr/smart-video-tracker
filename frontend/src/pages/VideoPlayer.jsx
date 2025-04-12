@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import './VideoPlayer.css';
+import video from '../videos.mp4';
 
 import { Box, Typography, Card, CardContent, LinearProgress } from '@mui/material';
 
