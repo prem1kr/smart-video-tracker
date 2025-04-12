@@ -17,7 +17,7 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      await axios.post('https://smart-video-tracker-backend.onrender.com/api/auth/signup', { email, password });
+      await axios.post('https://smart-video-tracker.onrender.com/api/auth/signup', { email, password });
       alert("Signup successful! Now login.");
       navigate('/login');
     } catch (err) {
