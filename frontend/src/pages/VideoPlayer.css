@@ -1,0 +1,14 @@
+.video-container {
+    padding: 16px;
+  }
+  
+  .responsive-video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .progress-text {
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+  
