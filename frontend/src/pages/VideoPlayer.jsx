@@ -101,7 +101,7 @@ const VideoPlayer = ({ token }) => {
           className="responsive-video"
           style={{ width: '100%', borderRadius: '8px' }}
         >
-          <source src= "" type="video/mp4" />
+          <source src= "https://videos.pexels.com/video-files/2278095/2278095-hd_1920_1080_30fps.mp4" type="video/mp4" />
         </video>
       </Box>
 
